@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function user(props) {
-  console.log(props.user);
+
   return (
     <div className="container px-4 pt-3">
       <h1 className="text-center mb-4">
