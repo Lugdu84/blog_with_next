@@ -5,7 +5,7 @@ export default function user(props) {
   return (
     <div className="container px-4 pt-3">
       <h1 className="text-center mb-4">
-        Nom d'utilisateur : {props.user.username}
+        Nom : {props.user.username}
       </h1>
       <div className="row justify-content-center">
         <div className="col-12 col-lg-8 col-xl-6">
