@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
-import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container mt-4">
       <h1>Bienveue sur Code.io</h1>
       <span>Le blog communautaire des aficionados de déveleppement web.</span>
       <div className="row mt-5">
